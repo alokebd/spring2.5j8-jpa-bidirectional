@@ -1,0 +1,10 @@
+package com.vision.blogowner.controller.dto;
+
+import lombok.Data;
+
+@Data
+public class OwnerDto {
+	private int id;
+	private String name;
+    private String email;
+}
